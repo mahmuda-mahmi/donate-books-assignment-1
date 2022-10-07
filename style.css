@@ -134,3 +134,22 @@ hr{
 #plan-better{
        background-color: #e6edf6;
 }
+footer{
+       text-align: center;
+       background-color: #0B0D17;
+       padding: 3% 25%;
+       color: whitesmoke;
+}
+footer h3{
+       font-family: 'Lobster', cursive;
+       font-weight: 400;
+       font-size: 36px;
+       color: #63cc9b;
+}
+footer p{
+       margin: 3% 0%;
+       font-family: 'Manrope', sans-serif;
+       font-weight: 400;
+       font-size: 14px;
+       color: #676881;
+}

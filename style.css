@@ -25,7 +25,7 @@
        font-size: 65px;
        color: white;
 }
-p{
+.para{
        font-family:'Poppins', sans-serif ;
        font-weight: 400;
        font-size: 18px;
@@ -48,10 +48,11 @@ p{
 }
 .donate-container{
        text-align: center;
-       margin: 5%;
+       margin: 5% 5% 0% 5%;
 }
 .donate-div{
        padding: 5% 15%;
+       text-align: center;
 }
 .donate-head{
        font-family: 'Inter', sans-serif ;
@@ -59,7 +60,7 @@ p{
        font-size: 45px;
        color: #121212;
 }
-.para-text, .book-plan{
+#para-text, .book-plan{
        color: #707070;
 
 }
@@ -78,7 +79,7 @@ p{
 .donate-part{
        text-align: center;
 }
-#amount{
+.amount{
        font-family:'Poppins', sans-serif ;
        font-weight: 400;
        font-size: 18px;
@@ -88,4 +89,48 @@ p{
 hr{
        margin: 0% 20%;
        color: #DADADA;
+}
+.donate-div-container{
+       padding: 5% 15% 2% 15%;
+       text-align: center;
+}
+.donate-plan-para{
+       padding: 0% 10%;
+}
+.donate-plan-div{
+       display: flex;
+       margin: 0% 10% 10% 10%;
+       
+}
+.plan{
+       margin-right: 2%;
+       border-radius: 5px;
+       padding: 5%;
+       text-align: left;
+       box-sizing: content-box;
+       width: 100%;
+}
+.plan img{
+       width: 30%;
+       padding-bottom: 5%;
+}
+.plan h3{
+       padding: 5% 0%;
+       font-family: 'Poppins', sans-serif;
+       font-weight: 600px;
+       font-size: 24px;
+}
+.plan p{
+       font-family:'Poppins', sans-serif ;
+       font-weight: 400;
+       font-size: 16px;
+}
+#plan-education{
+       background-color: #e6f6ef;
+}
+#plan-future{
+       background-color: #f6e6ea;
+}
+#plan-better{
+       background-color: #e6edf6;
 }
